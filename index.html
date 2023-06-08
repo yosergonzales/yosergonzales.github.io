@@ -174,7 +174,7 @@
           <h3>Lic. Yoser González</h3>
           <h5>Abogado & Notario público</h5>
           <button class="btn">
-            <a id="download-link" download="yoser_gonzales.vcf"
+            <a class="download-link" download="yoser_gonzales.vcf"
               >Agregar a contactos
             </a>
           </button>
@@ -298,7 +298,7 @@
         </h1>
         <h3>Abogado & Notario público | 29648</h3>
         <button class="btn">
-          <a id="download-link" download="yoser_gonzales.vcf"
+          <a class="download-link" download="yoser_gonzales.vcf"
             >Agregar a contactos
           </a>
         </button>
@@ -340,7 +340,7 @@
         link.click();
       }
       document
-        .getElementById("download-link")
+        .querySelector(".download-link")
         .addEventListener("click", createVCard);
     </script>
   </body>
